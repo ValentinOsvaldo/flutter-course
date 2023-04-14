@@ -1,5 +1,8 @@
 void main() {
-  final mySquare = Square(side: -10);
+  // final mySquare = Square(side: -10);
+  final mySquare = Square(side: 5.0);
+
+  mySquare.side = 10.0; // Set
 
   print('Area: ${mySquare.area}');
 }
