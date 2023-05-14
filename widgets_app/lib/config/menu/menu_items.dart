@@ -50,4 +50,10 @@ const appMenuItems = <MenuItem>[
     link: '/ui-controls',
     icon: Icons.toggle_on_outlined,
   ),
+  MenuItem(
+    title: 'Introducción a la app',
+    subTitle: 'Page views class',
+    link: '/tutorial',
+    icon: Icons.accessibility_new_rounded,
+  ),
 ];
